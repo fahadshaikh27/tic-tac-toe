@@ -2,7 +2,8 @@
 import pygame as pg
 import sys
 from pygame.locals import *
-import time
+import time 
+import pandas
 
 
 # initialize global variables
@@ -49,7 +50,7 @@ def game_opening():
     pg.draw.line(screen, line_color, (0, height/3), (width, height/3), 7)
     pg.draw.line(screen, line_color, (0, height/3*2), (width, height/3*2), 7)
    # draw_status()
-
+#changes
     def draw_status():
         global draw
 
